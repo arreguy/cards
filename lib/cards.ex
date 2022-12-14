@@ -77,7 +77,7 @@ defmodule Cards do
   end
 
   @doc """
-    Loads and returns a file.
+    Loads a binary file and returns a file.
   """
   def load(filename) do
     case File.read(filename) do
